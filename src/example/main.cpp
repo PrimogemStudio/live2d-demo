@@ -29,7 +29,7 @@ static void LoadLive2D()
 	static CubismFramework::Option option;
 	CubismFramework::StartUp(&allocator, &option);
 	CubismFramework::Initialize();
-	model = new CustomModel("Hiyori", "./res/Hiyori/");
+	model = new CustomModel("草神", "C:/Users/Hacker/Downloads/nahida/nahida/草神/");
 	model->SetupModel();
 }
 
