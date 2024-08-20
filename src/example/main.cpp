@@ -29,7 +29,7 @@ static void LoadLive2D()
 	static CubismFramework::Option option;
 	CubismFramework::StartUp(&allocator, &option);
 	CubismFramework::Initialize();
-	model = new CustomModel("草神", "C:/Users/Hacker/Downloads/nahida/nahida/草神/");
+	model = new CustomModel("草神", "/home/coder2/mmd/live2d/nahida/草神/");
 	model->SetupModel();
 }
 

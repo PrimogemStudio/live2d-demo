@@ -5,6 +5,7 @@ module;
 #include <functional>
 #include <glad/gl.h>
 #include <GLFW/glfw3.h>
+#include <Framework/Physics/CubismPhysics.hpp>
 export module Module;
 
 using namespace Live2D::Cubism::Framework;
